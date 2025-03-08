@@ -1,0 +1,386 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('lato-font/Lato-Regular.eot');
+    src: url('lato-font/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('lato-font/Lato-Regular.woff2') format('woff2'),
+        url('lato-font/Lato-Regular.woff') format('woff'),
+        url('lato-font/Lato-Regular.ttf') format('truetype'),
+        url('lato-font/Lato-Regular.svg#Lato-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('segoe-UI font/SegoeUI.eot');
+    src: url('segoe-UI font/SegoeUI.eot?#iefix') format('embedded-opentype'),
+        url('segoe-UI font/SegoeUI.woff2') format('woff2'),
+        url('segoe-UI font/SegoeUI.woff') format('woff'),
+        url('segoe-UI font/SegoeUI.ttf') format('truetype'),
+        url('segoe-UI font/SegoeUI.svg#SegoeUI') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body{
+	margin:0;
+	font-family: 'Lato';
+	}
+
+nav{
+	position: -webkit-sticky;
+	position:sticky;
+	top:0;
+    background: black;
+	z-index:99;
+	}
+
+.left{
+	float:left;
+	}
+
+ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	}
+
+.navbar, .dropbtn{
+	display:inline-block;
+	color:white;
+    padding:10px;
+	}
+
+.navbar:hover{
+	background:#ccc;
+	color:black;
+	}
+
+.navbar:hover a{
+	color:black;
+	}
+
+.dropbtn:hover{
+	background:#ccc;
+	color:black;
+	}
+
+.dropbtn:hover i{
+	color:black !important;
+	}
+
+.dropdown{
+	position:absolute;
+	top:39px;
+	display:none;
+	box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+	}
+
+.dropdown li{
+	background:white;
+    padding: 10px 25px;
+	}
+
+.dropdown li:hover{
+	background:#ccc;
+	color:black;
+	}
+
+.dropdown li a{
+	color:black;
+	}
+
+.dropbtn:hover .dropdown{
+	display:block;
+	}
+
+li a{
+	text-decoration:none;
+	color:white;
+	}
+
+.search{
+	margin: 0;
+    float: right !important;
+	}
+
+.search:hover{
+	background:#f44336 !important;
+	}
+
+.center{	
+	position:relative;
+	}
+
+.container{	
+	position:absolute;
+	top: 80%;
+    left: 40%;
+	color:white;
+	text-align: center;
+	}
+
+.right{
+	width:60%;
+	margin:auto;
+	padding: 3rem 0rem;
+	}
+
+ .right h2, .right .right1{
+	text-align:center;
+	}
+
+.right2{
+	text-align: justify;
+	}
+
+.right3{
+	display:flex;
+	flex-direction: row;
+    justify-content: space-evenly;
+	}
+
+.w1, .w2, .w3{
+	text-align:center;
+	}
+
+.main1{
+	background:black;
+	}
+
+.div1{
+	margin: auto;
+    width: 65%;
+    background: black;
+    color: white;
+    padding: 30px 20px;
+	}
+
+h2, .p1{
+	text-align:center;
+	}
+
+.div2{
+	background: white;
+    color: black;
+	}
+
+.div2 p{
+	padding: 12px 16px;
+	margin:0;
+	border-bottom: 1px solid #ccc;
+	}
+
+.s1{
+	margin-left:25px;
+	padding: 3px 5px;
+	background:#f44336 !important;
+	color:white !important;
+	}
+
+.div2 .div2-1{
+	float: right;
+	color: white;
+    background: black !important;
+    border-radius: 50%;
+    padding: 2px 7px;
+	}
+
+.right1, .p1, .p2, .p3{
+	color:#757575;
+	}
+
+.div3{
+	display:flex;
+	justify-content: space-between;
+    margin-top: 30px;
+	}
+
+.div3-1{
+	width: 31%;
+    color: black;
+	display:flex;
+	flex-direction:column;
+	}
+
+.div3 h4{
+	margin:0;
+	}
+
+.div3-2{
+	padding: 0px 15px;
+	background: white;
+	}
+
+.div3-2 .btn{
+	padding: 8px;
+    background: black !important;
+    color: white !important;
+	width: 38%;
+	}
+
+.div3-2 .btn:hover {
+	background:#ccc !important;
+	color:black !important;
+	}
+
+.img1:hover{
+	opacity:0.5;
+	}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Segoe UI';
+    font-weight: 400;
+	}
+
+.w3-1{
+	letter-spacing: 4px;
+    font-size: 30px;
+	}
+
+.div4-1{
+	margin:auto;
+    width: 65%;
+	}
+
+.form{
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+    padding: 35px 15px;
+	}
+
+.address{
+    width: 48%;
+	}
+
+.address p{
+    margin: 0px 0px 8px;
+	font-size:17px;
+	}
+
+.address p i{
+	width:10%;
+	}
+
+.contact{
+	display:flex;
+	justify-content: space-between;
+	}
+
+.contact input{
+	padding:5px;
+	margin-bottom: 10px;
+	}
+
+.message input{
+    width: calc(100% - 14px);
+    padding: 5px;
+	}
+
+button{
+	margin-top: 20px;
+    border: none;
+    padding: 8px 20px;
+    background: black;
+    color: white;
+    font-size: 16px;
+	}
+
+button:hover{
+	background:#ccc;
+	color:black;
+	}
+
+footer{
+	text-align: center;
+    padding: 45px 0px;
+    background: #f1f1f1;
+	}
+
+footer .fa{
+	font-size:22px;
+	}
+
+footer .fa:hover{
+	opacity:0.6;
+	}
+
+footer p a{
+	color:inherit;
+	}
+
+@media screen and (max-width:600px){
+	.right{
+	width:93%;
+	padding:0;
+	}
+
+	.container{
+	position: absolute;
+    top: 50%;
+    left: 12%;
+	}
+
+	.main1{
+	padding: 10px 10px;
+	}
+
+	.div1{
+	padding:0;
+	width:100%;
+	}
+
+	form .contact{
+	flex-wrap: wrap;
+	}
+
+	.right3 {
+    flex-wrap: wrap;
+	}
+
+	.w1 img, .w2 img, .w3 img{
+	width:100%;
+	}
+
+	.contact input{
+	width:100%;
+	}
+
+	.address {
+	width: 100%;
+	}
+
+	.form {
+	padding: 0px 15px;
+	}
+
+	.div3 {
+    flex-wrap: wrap;
+	}
+
+	.div3-1 {
+    width: 100%;
+	padding-top: 5px;
+	}
+
+	.div3-2 .btn{
+	width:25%;
+	}
+
+	.div4{
+    padding: 0px 10px;	
+	}
+
+	.div4-1{
+    margin-top: 20px;
+    width: 100%;
+	}
+
+	.mapimg{
+	margin-top:20px;
+	}
+}
